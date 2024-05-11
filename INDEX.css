@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+   background-color:black ;
+
+}
+
+.content{
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%),url(IMG/background.jpg)  ;
+background-size: cover;
+padding: 40px;
+height: 700px;
+
+
+
+
+}
+
+
+
+
+
+.header{
+    flex-direction: row;
+align-items: center;
+    display: flex;
+        justify-content: space-between;
+        
+
+        }
+
+.logo {
+width: 150px;
+}
+
+select{
+    height:30px ;
+    width: 150px;
+border-radius: 3px;
+background-color: rgba(0, 0, 0, 0.507);
+border: none;
+color: white;
+padding: 4px 15px;
+background-image: url(IMG/netflixlogo.png);
+background-size: 20px;
+b
+
+}
+.nav button{
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+} 
+
+
+.text{
+    margin-top: 100px;
+   margin-left: 100px;
+}
+
+.text h1{
+    font-size: 60px;
+    color: white;
+
+}
+
+.text h2{
+    margin-top: 20px;
+    color: white;
+
+}
+.text h3{
+    margin-top: 25px;
+    color: white;
+}
+.text input{
+width: 350px;
+height: 50px;
+margin-top: 15px;
+border: none;
+background-color: transparent;
+border: 1px solid #aaa;
+
+
+}
+
+.box-container{
+    width: 100%;
+    height: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;    
+    background: linear-gradient(333.52deg, #000235 24.58%, #010F42 84.55%, #E40913 104.96%);;
+    border-radius: 5px;
+}
+
+
+
+ .btn{
+width: 150px;
+margin-left: 10px;
+height: 45px;
+border: none;
+background-color: red;
+color: white;
+border-radius: 50px;
+ }
+
+.box-infon{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+}
+
+
+
